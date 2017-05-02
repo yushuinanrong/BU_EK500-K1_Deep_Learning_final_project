@@ -22,5 +22,5 @@ for j = 1:10000
     imgs2(j, :) = img_float2(:)';
 end
 
-save('cifar_10_train.mat', 'imgs');
-save('cifar_10_test.mat', 'imgs2');
+save('./Dataset/cifar_10_train.mat', 'imgs');
+save('./Dataset/cifar_10_test.mat', 'imgs2');
